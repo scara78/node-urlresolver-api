@@ -1,13 +1,3 @@
-{
-  "name": "resolver",
-  "version": 2,
-  "builds": [
-    {
-      "src": "app.js",
-      "use": "@now/node-server"
-    }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "app.js" }
-  ]
-}
+ "scripts": {
+    "start": "node app.js"
+  }
